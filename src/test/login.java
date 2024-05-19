@@ -26,6 +26,8 @@ public class login {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath("//button[@title='Login']")).click();
+		driver.findElement(By.xpath("//button[@title='Forgot']")).click();
+
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//Thread.sleep(10000);
 		//driver.findElement(By.id("Login")).click();
